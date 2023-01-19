@@ -66,28 +66,6 @@ nav a:focus {
     transition: all 0.3s ease 0s;
 }
 
-@media (max-width: 640px) {
-    .container {
-        text-align: center;
-    }
-
-    .container-nav {
-        flex-direction: column;
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
-
-    .hero-image {
-        background-attachment: local;
-    }
-
-    nav li {
-        margin: 0.8em 0;
-    }
-}
-
 .hero-image {
     display: flex;
     flex-direction: column;
@@ -214,7 +192,7 @@ nav a:focus {
 
 }
 
-.about-button {
+#about-button {
     background: #181818;
     box-shadow:
     /* offset-x | offset-y | blur-radius | spread-radius | color */
@@ -241,8 +219,6 @@ nav a:focus {
     background: #252525;
 }
 
-
-
 footer ul {
     list-style: none;
     display: flex;
@@ -267,5 +243,28 @@ footer ul li .fa-brands {
     justify-content: flex-end;
     font-size: 0.75rem;
     color: #cecece;
+}
+/* Media Queries */
+
+@media (max-width: 640px) {
+    .container {
+        text-align: center;
+    }
+
+    .container-nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .hero-image {
+        background-attachment: local;
+    }
+
+    nav li {
+        margin: 0.8em 0;
+    }
 }
 
