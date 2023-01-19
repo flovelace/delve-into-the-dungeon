@@ -214,6 +214,35 @@ nav a:focus {
 
 }
 
+.about-button {
+    background: #181818;
+    box-shadow:
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+        0px 24px 38px 3px hsla(0, 0%, 0%, 0.14),
+        0px 9px 46px 8px hsla(0, 0%, 0%, 0.12),
+        0px 11px 15px -7px hsla(0, 0%, 0%, 0.2);
+    margin-top: 10px;
+    border: 0;
+    border-radius: 5px;
+    width: 175px;
+    color: #cecece;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 11px;
+    display: flex;
+    justify-content: center;
+    transition: all 0.7s ease 0s;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.about-button:hover {
+    background: #252525;
+}
+
+
+
 footer ul {
     list-style: none;
     display: flex;
