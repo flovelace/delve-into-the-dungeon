@@ -8,13 +8,13 @@ body {
     
 }
 
-/* Modal styling */
+/* Modal styling
 .modal {
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* gap: 0.4rem; */
-    width: 600px;
+    /* width: 600px;
     padding: 1.3rem;
     min-height: 250px;
     position: fixed;
@@ -25,9 +25,9 @@ body {
     border: 1px solid #252525;
     border-radius: 15px;
     z-index: 2;
-}
+} */
 
-.modal .flex {
+/* .modal .flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,10 +44,10 @@ body {
     padding: 0.5rem 0.7rem;
     background: #121212;
     border-radius: 50%;
-}
+} */
 
 /* Overlay */
-.overlay {
+/* .overlay {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -58,12 +58,12 @@ body {
     background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(1.5px);
     z-index: 1;
-}
+} */
 
 /* Hidden class */
-.hidden {
+/* .hidden {
     display: none;
-}
+} */
 
 h1 {
     font-family: 'IM Fell English SC', serif;
