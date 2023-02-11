@@ -242,6 +242,7 @@ footer ul li .fa-brands {
 .legal {
     display: flex;
     justify-content: flex-end;
+    padding-right: 20px;
     font-size: 0.75rem;
     color: #cecece;
 }
@@ -271,6 +272,18 @@ footer ul li .fa-brands {
     .cards {
         display: flex;
         flex-flow: column;
+    }
+
+    .container-footer {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+    }
+
+    .legal-footer {
+        display: flex;
+        flex-direction: column;
+        padding-right: 10px;
     }
 }
 
